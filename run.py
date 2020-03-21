@@ -12,7 +12,7 @@ outputs = []
 for file in onlyfiles:
     if "input" in file:
         inputs.append(file)
-    else:
+    elif "output" in file:
         outputs.append(file)
 inputs.sort()
 outputs.sort()
