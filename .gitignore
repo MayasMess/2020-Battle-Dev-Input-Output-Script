@@ -1,0 +1,5 @@
+tests/*put*
+.idea
+__pycache__/
+*pyc
+
